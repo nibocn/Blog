@@ -36,7 +36,7 @@ tags:
 
 至此通过 Postman 发送需要登录或授权的 URL 请求时已配置完成。
 
-  [1]: http://static.zybuluo.com/nibo/zeuzmps9bwnbv255oebn4774/install-postman-interceptor.png
-  [2]: http://static.zybuluo.com/nibo/9xzrcu0552gp5ri1poeoxctd/setting-postman-interceptor.png
-  [3]: http://static.zybuluo.com/nibo/wbmx0cej6eifw0m2ozvi0mjz/setting-postman.png
+  [1]: /uploads/postman-interceptor-setting/install-postman-interceptor.png
+  [2]: /uploads/postman-interceptor-setting/setting-postman-interceptor.png
+  [3]: /uploads/postman-interceptor-setting/setting-postman.png
   [4]: https://chrome.google.com/webstore/category/apps

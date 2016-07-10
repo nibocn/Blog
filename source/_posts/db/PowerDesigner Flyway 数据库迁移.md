@@ -143,8 +143,8 @@ pom 配置：
 - 在执行完上一步后，如果`migration`目录下的升级脚本有增加，如：`V3.0.0_8__xxxxx.sql`、`V3.0.0_9__xxxxx.sql`，则只需要执行`mvn flyway:migrate`命令即可。
 
 
-[PowerDesigner 数据库升级脚本生成]: http://7xqn9b.com1.z0.glb.clouddn.com/PowerDesigner/PowerDesigner-01.png
-[PowerDesigner 升级脚本差异对比]: http://7xqn9b.com1.z0.glb.clouddn.com/PowerDesigner/PowerDesigner-02.png
-[PowerDesigner 模型归档]: http://7xqn9b.com1.z0.glb.clouddn.com/PowerDesigner/PowerDesigner-03.png
+[PowerDesigner 数据库升级脚本生成]: /uploads/powerdesigner-flyway-db-migration/db-migrate-script-gen.png
+[PowerDesigner 升级脚本差异对比]: /uploads/powerdesigner-flyway-db-migration/db-model-diff.png
+[PowerDesigner 模型归档]: /uploads/powerdesigner-flyway-db-migration/db-model-archive.png
 [Flyway 官网]: https://flywaydb.org
-[项目示例]: http://7xqn9b.com1.z0.glb.clouddn.com/PowerDesigner/%E9%A1%B9%E7%9B%AE%E7%A4%BA%E4%BE%8B.png
+[项目示例]: /uploads/powerdesigner-flyway-db-migration/project-demo.png
