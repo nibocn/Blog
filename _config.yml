@@ -74,5 +74,5 @@ duoshuo_shortname: nibo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:niboxy/niboxy.github.com.git
+  repo: git@github.com:nibocn/nibocn.github.com.git
   branch: [master]
