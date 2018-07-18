@@ -74,6 +74,16 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+theme_config:
+  menu:
+    首页: / || home
+    #about: /about/ || user
+    标签: /tags/ || tags
+    分类: /categories/ || th
+    归档: /archives/ || archive
+    #schedule: /schedule/ || calendar
+    #sitemap: /sitemap.xml || sitemap
+    #commonweal: /404/ || heartbeat
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
