@@ -70,6 +70,15 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+
+# Post wordcount display settings
+# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+symbols_count_time:
+  symbols: true
+  time: false
+  total_symbols: true
+  total_time: false
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
