@@ -93,6 +93,7 @@ theme_config:
     #schedule: /schedule/ || calendar
     #sitemap: /sitemap.xml || sitemap
     #commonweal: /404/ || heartbeat
+  fancybox: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
