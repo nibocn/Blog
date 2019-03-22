@@ -11,7 +11,7 @@ before_install:
 install:
 - npm install hexo-cli -g
 - npm install
-- git clone -b my https://github.com/nibocn/hexo-theme-next.git themes/next
+- git clone --depth 1 --branch v6.3.0 https://github.com/theme-next/hexo-theme-next.git themes/next
 addons:
     ssh_know_hosts: nibo.me:22
 script:
