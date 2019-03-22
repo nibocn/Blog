@@ -12,10 +12,8 @@ install:
 - npm install hexo-cli -g
 - npm install
 - git clone --depth 1 --branch v6.3.0 https://github.com/theme-next/hexo-theme-next.git themes/next
-addons:
-    ssh_know_hosts: nibo.me:22
 script:
 - hexo clean
 - hexo generate
-- rsync -az -vv --delete -e 'ssh -o "StrictHostKeyChecking no" -p 22' public/ travis@nibo.me:/var/www/blog
+- rsync -az -vv --delete -e "ssh -o 'StrictHostKeyChecking no' -p $PORT" public/ travis@$HOST:/var/www/blog2
 - rm -rf ~/.ssh
