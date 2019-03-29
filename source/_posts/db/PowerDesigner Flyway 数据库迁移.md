@@ -10,6 +10,10 @@ tags:
   - 数据库迁移
 ---
 
+![Cover][]
+
+_图片来自： https://unsplash.com/photos/PkbZahEG2Ng_
+
 这篇文章主要介绍通过`PowerDesigner`、`Flyway`这两个工具来制作和执行数据库升级脚本。
 
 <!-- more -->
@@ -143,6 +147,7 @@ pom 配置：
 - 在执行完上一步后，如果`migration`目录下的升级脚本有增加，如：`V3.0.0_8__xxxxx.sql`、`V3.0.0_9__xxxxx.sql`，则只需要执行`mvn flyway:migrate`命令即可。
 
 
+[Cover]: /uploads/powerdesigner-flyway-db-migration/cover.jpg
 [PowerDesigner 数据库升级脚本生成]: /uploads/powerdesigner-flyway-db-migration/db-migrate-script-gen.png
 [PowerDesigner 升级脚本差异对比]: /uploads/powerdesigner-flyway-db-migration/db-model-diff.png
 [PowerDesigner 模型归档]: /uploads/powerdesigner-flyway-db-migration/db-model-archive.png

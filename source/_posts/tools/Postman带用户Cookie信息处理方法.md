@@ -9,6 +9,10 @@ tags:
   - postman-interceptor
 ---
 
+![Cover][]
+
+_图片来自： https://unsplash.com/photos/en7G3hTSjBQ_
+
 > 当我们使用 Postman 发送一个请求时，可能会要求发送这个请求前先做用户认证（登录）。并且在具体请求某个 URL 时还会验证当前用户是否有权限请求这个 URL。在 Postman 中如何达到这一要求呢？
 
 <!-- more -->
@@ -36,7 +40,9 @@ tags:
 
 至此通过 Postman 发送需要登录或授权的 URL 请求时已配置完成。
 
-  [1]: /uploads/postman-interceptor-setting/install-postman-interceptor.png
-  [2]: /uploads/postman-interceptor-setting/setting-postman-interceptor.png
-  [3]: /uploads/postman-interceptor-setting/setting-postman.png
-  [4]: https://chrome.google.com/webstore/category/apps
+
+[Cover]: /uploads/postman-interceptor-setting/cover.jpg
+[1]: /uploads/postman-interceptor-setting/install-postman-interceptor.png
+[2]: /uploads/postman-interceptor-setting/setting-postman-interceptor.png
+[3]: /uploads/postman-interceptor-setting/setting-postman.png
+[4]: https://chrome.google.com/webstore/category/apps
