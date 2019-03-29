@@ -1,4 +1,5 @@
 .DS_Store
+.hexo_env
 Thumbs.db
 db.json
 *.log
