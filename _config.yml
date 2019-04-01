@@ -138,12 +138,15 @@ theme_config:
     shortname: nibo
     count: true
     lazyload: true
-  firestore:
+  leancloud_visitors:
     enable: true
-    collection: visitors #required, a string collection name to access firestore database
-    apiKey: AIzaSyCPkbwn8R0zcGZ7NRA6zxHt4IzCieLq2vc #required
-    projectId: nibo-blog #required
-    bluebird: false #enable this if you want to include bluebird 3.5.1(core version) Promise polyfill
+    app_id: Wcgyaby58pfO3kKEKqzW3HJg-gzGzoHsz
+    app_key: BcLEUR68p17CEr4Mjtmfoi8Q
+    # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+    # If you don't care about security in leancloud counter and just want to use it directly
+    # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
+    security: false
+    betterPerformance: false
   # Google Analytics
   google_analytics:
     tracking_id: UA-137344941-1
