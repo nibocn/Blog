@@ -89,6 +89,9 @@ theme_config:
     medium: /images/favicon.ico
     apple_touch_icon: /images/favicon.ico
     safari_pinned_tab: /images/favicon.ico
+  social:
+    GitHub: https://github.com/nibocn || github
+    E-Mail: mailto:nibocn@gmail.com || envelope
   avatar:
     url: /images/avatar.png
     # If true, the avatar would be dispalyed in circle.
