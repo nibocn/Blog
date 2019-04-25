@@ -121,7 +121,7 @@ theme_config:
     enable: true
     global:
       external: true
-      family: 'Noto Sans SC'
+      family: 'Monda'
       size:
     logo:
       external: true
@@ -129,7 +129,7 @@ theme_config:
       size: 36
     codes:
       external: true
-      family: 'Roboto Mono'
+      family: 'PT Mono'
       size:
   sidebar:
     scrollpercent: true
