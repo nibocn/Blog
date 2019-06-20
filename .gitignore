@@ -1,4 +1,5 @@
 .DS_Store
+*.swp
 .hexo_env
 Thumbs.db
 db.json
