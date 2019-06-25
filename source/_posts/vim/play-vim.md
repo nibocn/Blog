@@ -1,6 +1,5 @@
 ---
 title: 玩转 Vim 笔记
-layout: draft
 date: 2019-06-25
 permalink: play-vim
 categories:
