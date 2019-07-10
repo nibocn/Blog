@@ -1085,14 +1085,13 @@ hexo-renderer-ejs@^0.3.1:
     ejs "^2.3.4"
     object-assign "^4.0.1"
 
-hexo-renderer-marked@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.npm.taobao.org/hexo-renderer-marked/download/hexo-renderer-marked-0.3.2.tgz#d6a37af9ff195e30f9ef6ede1a06ea1fe4322966"
-  integrity sha1-1qN6+f8ZXjD5727eGgbqH+QyKWY=
+hexo-renderer-marked@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/hexo-renderer-marked/download/hexo-renderer-marked-1.0.1.tgz#7752e55afa789eb05e0d47c72e286a12c2c8e080"
+  integrity sha1-d1LlWvp4nrBeDUfHLihqEsLI4IA=
   dependencies:
     hexo-util "^0.6.2"
-    marked "^0.3.9"
-    object-assign "^4.1.1"
+    marked "^0.6.1"
     strip-indent "^2.0.0"
 
 hexo-renderer-stylus@^0.3.3:
@@ -1582,10 +1581,10 @@ markdown@~0.5.0:
   dependencies:
     nopt "~2.1.1"
 
-marked@^0.3.9:
-  version "0.3.19"
-  resolved "https://registry.npm.taobao.org/marked/download/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
-  integrity sha1-XUf3CcTJ/Dwha21GEnKA9As515A=
+marked@^0.6.1:
+  version "0.6.3"
+  resolved "https://registry.npm.taobao.org/marked/download/marked-0.6.3.tgz#79babad78af638ba4d522a9e715cdfdd2429e946"
+  integrity sha1-ebq614r2OLpNUiqecVzf3SQp6UY=
 
 math-random@^1.0.1:
   version "1.0.4"

@@ -11,7 +11,7 @@ before_install:
 install:
   - yarn global add hexo-cli
   - yarn install
-  - git clone --depth 1 --branch v7.0.1 https://github.com/theme-next/hexo-theme-next.git themes/next
+  - git clone --depth 1 --branch v7.2.0 https://github.com/theme-next/hexo-theme-next.git themes/next
 script:
   - hexo clean
   - hexo generate
