@@ -1,7 +1,7 @@
 ---
 title: PowerDesigner Flyway 数据库迁移
 date: 2016-04-23 21:08
-permalink: powerdesigner-flyway-db-migration
+permalink: powerdesigner-flyway-db-migration/
 categories:
   - DB
 tags:

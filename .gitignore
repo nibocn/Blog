@@ -1,6 +1,7 @@
 .DS_Store
 *.swp
 .hexo_env
+.hexo-env
 Thumbs.db
 db.json
 *.log

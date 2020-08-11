@@ -1,7 +1,7 @@
 ---
 title: 玩转 Vim 笔记
 date: 2019-06-25 17:00
-permalink: play-vim
+permalink: play-vim/
 categories:
   - Vim
 tags:

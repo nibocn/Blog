@@ -5,18 +5,21 @@
 # Site
 title: "NiBo's Blog"
 subtitle: "It's now or never."
-description: ""
-keywords: ""
+description: ''
+keywords:
 author: NiBo
 language: zh-CN
-timezone: "Asia/Shanghai"
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://nibo.me
+url: https://www.nibo.me
 root: /
 permalink: :year/:month/:day/:layout/:title/
 permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -32,7 +35,10 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -42,7 +48,14 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -58,110 +71,37 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
 
-
-# Post wordcount display settings
-# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-# symbols_count_time:
-#   symbols: true
-#   time: false
-#   total_symbols: true
-#   total_time: false
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-theme_config:
-  favicon:
-    small: /images/favicon.ico
-    medium: /images/favicon.ico
-    apple_touch_icon: /images/favicon.ico
-    safari_pinned_tab: /images/favicon.ico
-  social:
-    GitHub: https://github.com/nibocn || github
-    E-Mail: mailto:nibocn@gmail.com || envelope
-  avatar:
-    url: /images/avatar.png
-    # If true, the avatar would be dispalyed in circle.
-    rounded: true
-    # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
-    opacity: 0.8
-    # If true, the avatar would be rotated with the cursor.
-    rotated: true
-  menu:
-    首页: / || home
-    #about: /about/ || user
-    标签: /tags/ || tags
-    分类: /categories/ || th
-    归档: /archives/ || archive
-    #schedule: /schedule/ || calendar
-    #sitemap: /sitemap.xml || sitemap
-    #commonweal: /404/ || heartbeat
-  # Post meta display settings
-  post_meta:
-    item_text: true
-    created_at: true
-    # updated_at:
-    #   enabled: true
-    #   another_day: true
-    categories: true
-  font:
-    enable: true
-    global:
-      external: true
-      family: 'Monda'
-      size:
-    logo:
-      external: true
-      family: Eater
-      size: 36
-    codes:
-      external: true
-      family: 'PT Mono'
-      size:
-  sidebar:
-    scrollpercent: true
-  scheme: Gemini
-  fancybox: true
-  # Disqus
-  disqus:
-    enable: true
-    shortname: nibo
-    count: true
-    lazyload: true
-  leancloud_visitors:
-    enable: true
-    app_id: Wcgyaby58pfO3kKEKqzW3HJg-gzGzoHsz
-    app_key: BcLEUR68p17CEr4Mjtmfoi8Q
-    # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
-    # If you don't care about security in leancloud counter and just want to use it directly
-    # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-    security: false
-    betterPerformance: false
-  # Google Analytics
-  google_analytics:
-    tracking_id: UA-137344941-1
-    localhost_ignored: true
-  vendors:
-    _internal: lib
-    fancybox: //cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js
-    fancybox_css: //cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: git
-#   repo: git@github.com:nibocn/nibocn.github.com.git
-#   branch: [master]
+deploy:
+  type: ''
+

@@ -1,7 +1,7 @@
 ---
 title: Postman Interceptor 配置
 date: 2015-12-06 21:28
-permalink: postman-interceptor-setting
+permalink: postman-interceptor-setting/
 categories:
   - Tools
 tags:

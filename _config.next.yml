@@ -1,0 +1,46 @@
+scheme: Gemini
+menu:
+  home: / || home
+  tags: /tags/ || tags
+  categories: /categories/ || th
+  archives: /archives/ || archive
+favicon:
+  small: /images/favicon.ico
+  medium: /images/favicon.ico
+  apple_touch_icon: /images/favicon.ico
+  safari_pinned_tab: /images/favicon.ico
+avatar:
+  url: /images/avatar.png
+  rounded: true
+  opacity: 0.8
+  rotated: true
+social:
+  GitHub: https://github.com/nibocn || github
+  E-Mail: mailto:nibocn@gmail.com || envelope
+font:
+  enable: true
+  global:
+    external: true
+    family: 'Monda'
+  title:
+    external: true
+    family: 'Eater'
+    size: 2
+  codes:
+    external: true
+    family: 'PT Mono'
+post_meta:
+  updated_at:
+    enable: false
+post_navigation: right
+# fancybox: true
+mediumzoom: true
+disqus:
+  enable: true
+  shortname: nibo
+  count: true
+  lazyload: true
+google_analytics:
+  tracking_id: UA-137344941-1
+  localhost_ignored: true
+
