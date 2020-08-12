@@ -1,9 +1,9 @@
 scheme: Gemini
 menu:
-  home: / || home
-  tags: /tags/ || tags
-  categories: /categories/ || th
-  archives: /archives/ || archive
+  home: / || fa fa-home
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
 favicon:
   small: /images/favicon.ico
   medium: /images/favicon.ico
@@ -15,8 +15,8 @@ avatar:
   opacity: 0.8
   rotated: true
 social:
-  GitHub: https://github.com/nibocn || github
-  E-Mail: mailto:nibocn@gmail.com || envelope
+  GitHub: https://github.com/nibocn || fab fa-github
+  E-Mail: mailto:nibocn@gmail.com || fa fa-envelope
 font:
   enable: true
   global:
