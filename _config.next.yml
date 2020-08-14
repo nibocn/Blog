@@ -33,8 +33,8 @@ post_meta:
   updated_at:
     enable: false
 post_navigation: right
-# fancybox: true
-mediumzoom: true
+fancybox: true
+# mediumzoom: true
 disqus:
   enable: true
   shortname: nibo
