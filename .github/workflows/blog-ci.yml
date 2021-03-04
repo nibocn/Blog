@@ -16,7 +16,7 @@ jobs:
       - name: Install nodejs
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: '14'
       - name: Install dependences
         run: |
           npm install -g hexo-cli
